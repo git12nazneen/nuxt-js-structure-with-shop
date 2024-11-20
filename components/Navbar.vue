@@ -1,6 +1,7 @@
 <template>
     <div>
-        <header class=" flex items-center justify-between  px-6 py-4 mx-auto rounded bg-slate-100 dark:bg-gray-50">
+        <header class="flex items-center justify-between px-6 py-4 mx-auto bg-slate-100 dark:bg-gray-50">
+            <!-- Logo -->
             <NuxtLink to="/" rel="noopener noreferrer" aria-label="Homepage">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-6 h-6 dark:text-violet-600">
                     <path
@@ -11,6 +12,8 @@
                     </path>
                 </svg>
             </NuxtLink>
+
+            <!-- Desktop Menu -->
             <div class="items-center hidden space-x-8 lg:flex">
                 <div class="space-x-10 flex justify-between list-none">
                     <li>
@@ -26,21 +29,53 @@
                 <Gbutton>Sign Up</Gbutton>
             </div>
 
-            <button class="flex items-center justify-center p-2 lg:hidden">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor"
-                    class="w-6 h-6 dark:text-gray-900">
+            <!-- Mobile Menu Button -->
+            <button @click="toggleMenu" class="flex items-center justify-center p-2 lg:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" class="w-6 h-6 dark:text-gray-900">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16">
                     </path>
                 </svg>
             </button>
         </header>
+
+        <!-- Mobile Menu -->
+        <div v-if="isMenuOpen" class="absolute top-16 left-0 w-full bg-slate-100 dark:bg-gray-50 lg:hidden">
+            <ul class="flex flex-col items-center space-y-4 py-4 list-none">
+                <li>
+                    <NuxtLink to="/" @click="closeMenu">Home</NuxtLink>
+                </li>
+                <li>
+                    <NuxtLink to="/about" @click="closeMenu">About</NuxtLink>
+                </li>
+                <li>
+                    <NuxtLink to="/products" @click="closeMenu">Product</NuxtLink>
+                </li>
+                <li>
+                    <Gbutton @click="closeMenu">Sign Up</Gbutton>
+                </li>
+            </ul>
+        </div>
     </div>
 </template>
 
 <script>
 export default {
-    name: "Navbar"
+    name: "Navbar",
+    data() {
+        return {
+            isMenuOpen: false,
+        };
+    },
+    methods: {
+        toggleMenu() {
+            this.isMenuOpen = !this.isMenuOpen;
+        },
+        closeMenu() {
+            this.isMenuOpen = false;
+        },
+    },
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+</style>

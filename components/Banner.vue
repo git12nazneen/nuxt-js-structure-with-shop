@@ -2,8 +2,8 @@
     <div class="relative bg-black text-white h-screen flex items-center justify-between px-10">
         <!-- Center Section -->
         <div class="absolute inset-0 flex flex-col items-center justify-center text-center z-10">
-            <h1 class="text-6xl font-extrabold mb-4">Welcome to E-Shop</h1>
-            <p class="text-lg text-gray-300 mb-6">Discover the latest gadgets, updates, and reviews every day.</p>
+            <h1 class="text-2xl lg:text-6xl font-extrabold mb-4">Welcome to E-Shop</h1>
+            <p class="text-sm lg:text-lg text-gray-300 mb-6">Discover the latest gadgets, updates, and reviews every day.</p>
             <button class="bg-red-600 text-white font-bold px-8 py-3 rounded hover:bg-red-700">
                 Learn More
             </button>

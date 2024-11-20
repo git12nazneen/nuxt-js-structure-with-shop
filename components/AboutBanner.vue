@@ -5,7 +5,7 @@
                 class="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
                 <div
                     class="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
-                    <h1 class="text-5xl font-bold leading-none sm:text-6xl">Shop Smart,
+                    <h1 class="text-5xl font-bold leading-none sm:text-xl">Shop Smart,
                         <span class="dark:text-violet-600">and</span> Live Better
                     </h1>
                     <p class="mt-6 mb-8 text-lg sm:mb-12">"Discover exclusive deals, unbeatable discounts,
