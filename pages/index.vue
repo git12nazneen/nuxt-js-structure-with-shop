@@ -1,13 +1,13 @@
 <template>
     <div>
-        <h1>Index page</h1>
+        <Banner></Banner>
     </div>
 </template>
 
-<script>
-export default {
+<script setup>
 
-}
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+
+</style>
