@@ -1,6 +1,8 @@
 <template>
     <div class="container mx-auto p-10">
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+        <Heading title="See Our all Product" subTitle="Our all products are authentic and new available"></Heading>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 my-10">
             <div v-for="product in products">
                 <a
                     class="flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-lg focus:outline-none focus:shadow-lg transition dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70 h-[480px]">

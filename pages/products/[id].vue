@@ -1,7 +1,9 @@
 <template>
     <div v-if="singleproduct">
-        <div class="max-w-5xl mx-auto my-20">
-
+        <Heading title="See  Product Details" subTitle="Our all products are authentic and new available"></Heading>
+   
+        <div class="max-w-5xl mx-auto my-10">
+            
             <div
                 class="bg-white border rounded-xl shadow-sm sm:flex dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
                 <div

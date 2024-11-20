@@ -1,6 +1,8 @@
 <template>
-    <div>
-        <Banner></Banner>
+    <div class="bg-gray-200">
+        <Banner/>
+        <AllProduct/>
+        <Contact/>
     </div>
 </template>
 
