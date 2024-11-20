@@ -8,7 +8,7 @@
       <!-- Card 1 -->
       <div class="bg-white rounded-lg shadow-lg p-6 text-center">
         <div class="flex justify-center mb-4">
-          <img src="https://via.placeholder.com/50" alt="Icon" class="w-12 h-12 rounded-full">
+          <img src="https://images.pexels.com/photos/11798029/pexels-photo-11798029.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Icon" class="w-20 h-20 rounded-full">
         </div>
         <h2 class="text-lg font-semibold text-gray-800 mb-2">Talk to a member of our Sales team</h2>
         <p class="text-sm text-gray-600 mb-6">
@@ -21,7 +21,7 @@
       <!-- Card 2 -->
       <div class="bg-white rounded-lg shadow-lg p-6 text-center">
         <div class="flex justify-center mb-4">
-          <img src="https://via.placeholder.com/50" alt="Icon" class="w-12 h-12 rounded-full">
+          <img src="https://images.pexels.com/photos/8817532/pexels-photo-8817532.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Icon" class="w-20 h-20 rounded-full">
         </div>
         <h2 class="text-lg font-semibold text-gray-800 mb-2">Product and account support</h2>
         <p class="text-sm text-gray-600 mb-6">

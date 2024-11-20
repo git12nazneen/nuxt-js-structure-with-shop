@@ -1,6 +1,6 @@
 <template>
-    <Heading title="See Our all Product" subTitle="Our all products are authentic and new available"></Heading>
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 my-10 container mx-auto">
+    <Heading title="See Our all Product" subTitle="Our all products are authentic and new available" class="mt-10"></Heading>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 my-10 container mx-auto mt-10">
 
         <div class="max-w-sm mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
             <!-- Top Section -->
